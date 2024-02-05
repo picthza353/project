@@ -1,0 +1,16 @@
+
+label, tbody, p, td{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+thead ,th{
+    font-size: 20px;
+}
+
+#search{
+    font-size: 18px;
+}
+
+
+

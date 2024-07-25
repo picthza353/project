@@ -4,7 +4,8 @@
 require_once("header.php");
 ?>
 <?php
-//$currentSaleBuy = getCurrentSaleBuy($_GET["id"]);
+$currentSaleBuy = getCurrentSaleBuy($_GET["id"]);
+$currentUser = getCurrentUser($_GET["id"]);
 $numberSaleBuy = runNumberSaleBuy();
 $allProduct = getAllProduct();
 $allMember = getAllCustomer();
